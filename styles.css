@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+cite {
+    margin-left: 10%;
+}
+.site-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav li {
+    margin: 0 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.post {
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-header h2 {
+    margin: 0;
+}
+
+.post-header time {
+    margin: 0;
+}
+
+.post-body {
+    padding: 10px;
+}
+
+.article-statistics{
+    font-family: "roboto";
+}
